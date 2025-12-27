@@ -1,0 +1,29 @@
+{
+  "name": "my-event-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "receive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saugat-15/my-event-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saugat-15/my-event-hub/issues"
+  },
+  "homepage": "https://github.com/saugat-15/my-event-hub#readme",
+  "devDependencies": {
+    "@azure/event-hubs": "^6.0.0",
+    "@azure/eventhubs-checkpointstore-blob": "^2.0.0",
+    "@azure/storage-blob": "^12.29.1"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.13.0"
+  }
+}
